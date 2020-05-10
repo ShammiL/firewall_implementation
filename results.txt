@@ -1,0 +1,20 @@
+Ethernet Frame:
+         - Destination: 08:00:27:DE:EC:B4, Source: 52:54:00:12:35:02, Protocol: 8
+         - IPv4 Packet:
+                 - version: 4, Header Length: 20, TTL: 64
+                 - Protocol: 6, Source: 192.248.8.68, Target: 10.0.2.15
+         - TCP Segment:
+                 - Source Port: 443, Destination Port: 38808
+                 - Sequence: 3052736001, Acknowledgment: 483103884
+Rejected
+
+Ethernet Frame:
+         - Destination: 52:54:00:12:35:02, Source: 08:00:27:DE:EC:B4, Protocol: 8
+         - IPv4 Packet:
+                 - version: 4, Header Length: 20, TTL: 64
+                 - Protocol: 6, Source: 10.0.2.15, Target: 52.84.228.53
+         - TCP Segment:
+                 - Source Port: 43078, Destination Port: 443
+                 - Sequence: 2711606003, Acknowledgment: 3041787602
+Accepted
+
